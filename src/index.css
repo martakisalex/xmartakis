@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #000;
+  /* Black text color */
+  background-color: #fff;
+  /* White background color */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #000;
+  /* Black link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  /* Underline on hover for distinction */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #000;
+  /* Ensure heading is black */
+}
+
+button {
+  border-radius: 0;
+  /* No rounding on corners */
+  border: 1px solid #000;
+  /* Black border */
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fff;
+  /* White background */
+  color: #000;
+  /* Black text */
+  cursor: pointer;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+button:hover {
+  background-color: #000;
+  /* Black background on hover */
+  color: #fff;
+  /* White text on hover */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto #000;
+  /* Black focus outline */
+}

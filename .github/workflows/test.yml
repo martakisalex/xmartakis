@@ -2,9 +2,9 @@ name: Run Tests
 
 on:
   push:
-    branches: [develop]
+    branches: [main, develop]
   pull_request:
-    branches: [develop]
+    branches: [main, develop]
 
 jobs:
   build:
@@ -23,4 +23,7 @@ jobs:
         run: npm install
 
       - name: Run tests
+        env:
+          VITE_GOOGLE_API_KEY: ${{ secrets.VITE_GOOGLE_API_KEY }}
+          VITE_GOOGLE_SHEET_ID: ${{ secrets.VITE_GOOGLE_SHEET_ID }}
         run: npm test

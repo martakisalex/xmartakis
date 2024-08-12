@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { fetchSheetData } from '../utils/googleSheetsApi'; // Ensure this path is correct
+import { fetchSheetData } from '../../utils/googleSheetsApi'; // Ensure this path is correct
 import Favorites from './Favorites';
 import './FavoritesPage.css';
 

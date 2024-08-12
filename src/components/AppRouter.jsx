@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './Header';
-import HomePage from './HomePage';
-import FavoritesPage from './FavoritesPage';
-import ReviewsPage from './ReviewsPage';
-import BlogsPage from './BlogsPage';
-import AboutPage from './AboutPage';
+import Header from './Header.jsx';
+import HomePage from './HomePage/HomePage.jsx';
+import FavoritesPage from './FavoritesPage/FavoritesPage.jsx';
+import ReviewsPage from './ReviewsPage/ReviewsPage.jsx';
+import BlogsPage from './BlogsPage/BlogsPage.jsx';
+import AboutPage from './AboutPage/AboutPage.jsx';
 
 function AppRouter() {
   return (

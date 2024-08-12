@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
-import HelloWorld from '../../../src/components/HelloWorld';
+import HelloWorld from './HelloWorld';
 
 describe('HelloWorld component', () => {
   it('renders the correct text', () => {

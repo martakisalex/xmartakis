@@ -1,4 +1,4 @@
-import { fetchSheetData } from '../../../src/utils/googleSheetsApi';
+import { fetchSheetData } from './googleSheetsApi';
 
 // Use Vitest's `vi` to mock global fetch
 global.fetch = vi.fn();

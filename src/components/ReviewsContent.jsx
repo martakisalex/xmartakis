@@ -1,10 +1,10 @@
-function ReviewsPage() {
+function ReviewsContent() {
   return (
     <div>
-      <h2>Reviews Page Placeholder</h2>
+      <h2>Video Game Reviews Placeholder</h2>
       <p>This section will contain reviews of various video games.</p>
     </div>
   );
 }
 
-export default ReviewsPage;
+export default ReviewsContent;

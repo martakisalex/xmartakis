@@ -1,8 +1,8 @@
-import './HomePage.css';
+import './HomeContent.css';
 
-function HomePage() {
+function HomeContent() {
   return (
-    <div className="home-page">
+    <div className="home-content">
       <img
         src="https://i.imgur.com/yGwweyj.jpeg"
         alt="Profile"
@@ -25,4 +25,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomeContent;

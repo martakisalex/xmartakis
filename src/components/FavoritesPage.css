@@ -1,0 +1,14 @@
+.favorites-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.favorites-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.loading-message {
+    font-size: 1.2em;
+    color: #888;
+}

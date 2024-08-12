@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { fetchSheetData } from '../utils/googleSheetsApi'; // Ensure this path is correct
 import Favorites from './Favorites';
-import './FavoritesContent.css';
+import './FavoritesPage.css';
 
-function FavoritesContent() {
+function FavoritesPage() {
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ function FavoritesContent() {
   }, []);
 
   return (
-    <div className="favorites-content">
+    <div className="favorites-page">
       <h2 className="favorites-header">My Favorite Video Games Thus Far</h2>
       {favorites.length > 0 ? (
         <Favorites favorites={favorites} />
@@ -31,4 +31,4 @@ function FavoritesContent() {
   );
 }
 
-export default FavoritesContent;
+export default FavoritesPage;

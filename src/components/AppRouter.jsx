@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './Header.jsx';
-import HomePage from './HomePage/HomePage.jsx';
-import FavoritesPage from './FavoritesPage/FavoritesPage.jsx';
-import ReviewsPage from './ReviewsPage/ReviewsPage.jsx';
-import BlogsPage from './BlogsPage/BlogsPage.jsx';
-import AboutPage from './AboutPage/AboutPage.jsx';
+import Header from './Header';
+import HomePage from './HomePage/HomePage';
+import FavoritesPage from './FavoritesPage/FavoritesPage';
+import ReviewsPage from './ReviewsPage/ReviewsPage';
+import Review from './ReviewsPage/Review';
+import BlogsPage from './BlogsPage/BlogsPage';
+import AboutPage from './AboutPage/AboutPage';
 
 function AppRouter() {
   return (
@@ -15,6 +16,7 @@ function AppRouter() {
           <Route path="/" element={<HomePage />} />
           <Route path="/favorites" element={<FavoritesPage />} />
           <Route path="/reviews" element={<ReviewsPage />} />
+          <Route path="/reviews/:title" element={<Review />} />
           <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>

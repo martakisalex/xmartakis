@@ -1,8 +1,10 @@
+import Reviews from './Reviews';
+
 function ReviewsPage() {
   return (
     <div>
-      <h2>Reviews Page Placeholder</h2>
-      <p>This section will contain reviews of various video games.</p>
+      <h2>All Reviews</h2>
+      <Reviews />
     </div>
   );
 }

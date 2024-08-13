@@ -1,0 +1,88 @@
+/* Existing styles */
+.reviews-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.reviews-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.review-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.review-entry:hover {
+    background-color: #f0f0f0;
+}
+
+.review-entry-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+.review-score {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+
+.review-title {
+    flex-grow: 1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.review-date {
+    color: #555;
+    text-align: right;
+    font-size: 0.9em;
+    /* Smaller font size for the date */
+    margin-left: 15px;
+}
+
+/* Pagination Controls */
+.pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Apply social-button styles to pagination buttons */
+.pagination-controls button {
+    width: 200px;
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination-controls button:hover {
+    background-color: #333;
+}
+
+.pagination-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

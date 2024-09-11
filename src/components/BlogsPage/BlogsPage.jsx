@@ -1,8 +1,11 @@
+import Blogs from './Blogs';
+import './BlogsPage.css';
+
 function BlogsPage() {
   return (
-    <div>
-      <h2>Blogs Page Placeholder</h2>
-      <p>This section will feature blog posts.</p>
+    <div className="blogs-page">
+      <h2>All Blogs</h2>
+      <Blogs />
     </div>
   );
 }

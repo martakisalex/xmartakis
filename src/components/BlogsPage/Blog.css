@@ -1,0 +1,23 @@
+/* src/components/BlogsPage/Blog.css */
+
+.blog-details {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.blog-date {
+    color: #888;
+    font-size: 0.9em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.blog-content {
+    margin-top: 20px;
+    line-height: 1.6;
+}

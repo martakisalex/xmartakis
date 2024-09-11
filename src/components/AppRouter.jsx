@@ -5,6 +5,7 @@ import FavoritesPage from './FavoritesPage/FavoritesPage';
 import ReviewsPage from './ReviewsPage/ReviewsPage';
 import Review from './ReviewsPage/Review';
 import BlogsPage from './BlogsPage/BlogsPage';
+import Blog from './BlogsPage/Blog'; // Import the new Blog component
 import AboutPage from './AboutPage/AboutPage';
 
 function AppRouter() {
@@ -18,6 +19,7 @@ function AppRouter() {
           <Route path="/reviews" element={<ReviewsPage />} />
           <Route path="/reviews/:title" element={<Review />} />
           <Route path="/blogs" element={<BlogsPage />} />
+          <Route path="/blogs/:title" element={<Blog />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </main>
